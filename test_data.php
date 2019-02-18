@@ -1,0 +1,10 @@
+<?php
+
+const TEST_INPUT = "5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM";
+
+const TEST_OUTPUT = "1 3 N
+5 1 E";
