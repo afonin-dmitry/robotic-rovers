@@ -1,5 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
+require_once "models.php";
+require_once "test_data.php";
+require_once "RoboticRovers.php";
 
 class RoboticRoversTest extends TestCase{
     public function testOutput() {
@@ -9,7 +12,7 @@ class RoboticRoversTest extends TestCase{
         $plateau = new Plateau(new Point($x, $y));
         $robotic_rovers = new RoboticRovers($plateau);
 
-        for ($i = 0; $i <= count($input); $i += 2) {
+        for ($i = 0; $i < count($input); $i += 2) {
             list($x, $y, $char) = explode(" ", $input[$i]);
 
             $position_point = new PositionPoint($x, $y);

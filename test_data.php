@@ -1,10 +1,5 @@
 <?php
 
-const TEST_INPUT = "5 5
-1 2 N
-LMLMLMLMM
-3 3 E
-MMRMMRMRRM";
+const TEST_INPUT = "5 5\n1 2 N\nLMLMLMLMM\n3 3 E\nMMRMMRMRRM";
 
-const TEST_OUTPUT = "1 3 N
-5 1 E";
+const TEST_OUTPUT = "1 3 N\n5 1 E";
